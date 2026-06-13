@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "armoredmobs",
+  "version": "${version}",
+  "name": "Armored Mobs",
+  "description": "Zombies, squelettes, pillagers et vindicators avec armures netherite/diamond enchantées + trims aléatoires.",
+  "authors": ["Custom"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.armoredmobs.ArmoredMobsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "26.1.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
